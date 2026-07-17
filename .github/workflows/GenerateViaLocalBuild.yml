@@ -42,8 +42,7 @@ jobs:
     needs: [build]
     permissions:
       contents: write
-      pages: write
-    
+
     steps:
     # needed by JamesIves/github-pages-deploy-action
     - uses: actions/checkout@v4
