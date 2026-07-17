@@ -29,7 +29,7 @@ jobs:
         run: |
            ./build/foliage --source site --target generated
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v7
         with:
             name: foliage-generated
             path: generated
@@ -47,7 +47,7 @@ jobs:
     # needed by JamesIves/github-pages-deploy-action
     - uses: actions/checkout@v7
     
-    - uses: actions/download-artifact@v5
+    - uses: actions/download-artifact@v8
       with:
         path: generated
 
