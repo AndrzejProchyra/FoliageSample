@@ -34,7 +34,7 @@ jobs:
             name: foliage-generated
             path: generated
 
-      - name: AddNoJekill
+      - name: AddNoJekyll
         run: touch generated/.nojekyll
 
   deploy:
