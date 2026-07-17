@@ -1,0 +1,7 @@
+{
+	"baseUri" : "http://tintin.github.io",
+	"webRootPrefix" : "/FoliageSample",
+	"blogs": [ 
+		"news" : "News"
+	]
+}
